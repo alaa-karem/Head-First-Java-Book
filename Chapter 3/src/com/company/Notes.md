@@ -28,12 +28,13 @@ Book b = new Book();
 Book c = new Book ();
 b = c;
 ```
-* Declare two Book reference variables and Create two new Book objects
-* Assign the Book objects to the reference variables.
-* The two book objects are now living on the heap...... Then,
-    * Assign the value of variable c to variable b. 
+* ##### Declare two Book reference variables and Create two new Book objects
+* ##### Assign the Book objects to the reference variables.
+* ##### The two book objects are now living on the heap...... Then,
+    * ###### Assign the value of variable c to variable b. 
       The bits inside variable c are copied, and 
       that new copy is stuffed into variable b. 
       Both variables hold identical values, and object 1 become Null 
-  
-
+---
+### All reference the same type:
+###### All references for a given JVM will be the same size regardless of the objects they reference, but each JVM might have a different way of representing references, so references on one JVM may be smaller or larger than references on another JVM
