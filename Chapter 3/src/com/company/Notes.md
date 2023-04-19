@@ -17,8 +17,8 @@
 * ##### It can be anything you like, subject to those two rules, just so long as it isn’t one of Java’s reserved words.
 
 ---
-### Java is Pass by value?
-* ##### Pass by value: 
+### Java is Pass by value!
+* ##### The difference between Pass by value and pass by reference: 
     * ###### Pass by value: The method parameter values are copied to another variable and then the copied object is passed to the method. The method uses the copy
     * ###### Pass by reference: An alias or reference to the actual parameter is passed to the method. The method accesses the actual parameter.
 ---
