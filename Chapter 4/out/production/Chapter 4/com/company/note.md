@@ -26,5 +26,34 @@ void go(int z){
 ___
 
 ### Encapsulation:
+##### I use ( setter and getter ), to protect data and protect right to modify the implementation later as data is hidden by access modifies (private and public)
+___
+
+### Is there a rule to do that?
+* ##### mark your instance variables private
+* ##### provide public getters and setters for access control.
+___
+### The difference between instance and local variables:
+* ##### Instance --> variables are declared inside class but out the method.
+```java
+class Horse {
+ private double height = 15.2;
+ private String breed;
+ // more code...
+}
+```
+* ##### Local --> variables are declared inside class within method. 
+```java
+class AddThing {
+ int a;
+ int b = 12;
+ public int add() {
+ int total = a + b;
+ return total;
+ }
+}
+```
+___
+
 
 
